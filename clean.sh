@@ -1,5 +1,12 @@
 #!/bin/bash
 
+##################################################################                                                                                                                                                                         
+# files-html - Cool HTML Indexer for Apache/Nginx with Bootstrap #                                                                                                                                                                         
+# Date: 16-12-2023                                               #                                                                                                                                                                         
+# Author: q3aql                                                  #                                                                                                                                                                         
+# Contact: q3aql@duck.com                                        #                                                                                                                                                                         
+##################################################################
+
 # Variables
 find_list="/tmp/find_list"
 files_list="/tmp/files_list"
@@ -38,7 +45,6 @@ else
       cd ${path_gen}
       countf=$(expr ${countf} + 1)
     done
-    #rm -rf ${find_list}
   else
     echo "# Folder '${1}' not found"
   fi
