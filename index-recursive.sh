@@ -1,5 +1,12 @@
 #!/bin/bash
 
+##################################################################
+# files-html - Cool HTML Indexer for Apache/Nginx with Bootstrap #
+# Date: 16-12-2023                                               #
+# Author: q3aql                                                  #
+# Contact: q3aql@duck.com                                        #
+##################################################################
+
 # Variables
 find_list="/tmp/find_list"
 files_list="/tmp/files_list"
@@ -36,8 +43,6 @@ else
       cp -rf ${path_gen}/res ${find_read}/.res 2> /dev/null
       cp -rf ${path_gen}/index.sh ${find_read}/.index.sh 2> /dev/null
       cp -rf ${path_gen}/.index.sh ${find_read}/.index.sh 2> /dev/null
-      #cp -rf ${path_gen}/index-recursive.sh ${find_read}/.index-recursive.sh 2> /dev/null
-      #cp -rf ${path_gen}/.index-recursive.sh ${find_read}/.index-recursive.sh 2> /dev/null
       if [ ! -z "${find_read}" ] ; then
         echo "# Generating index files for ${find_read}"
       fi
@@ -47,7 +52,6 @@ else
       cd ${path_gen}
       countf=$(expr ${countf} + 1)
     done
-    #rm -rf ${find_list}
   else
     echo "# Folder '${1}' not found"
   fi
