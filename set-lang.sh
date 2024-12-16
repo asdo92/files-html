@@ -1,5 +1,12 @@
 #!/bin/bash
 
+##################################################################
+# files-html - Cool HTML Indexer for Apache/Nginx with Bootstrap #
+# Date: 16-12-2023                                               #
+# Author: q3aql                                                  #
+# Contact: q3aql@duck.com                                        #
+##################################################################
+
 dir=$(dirname $0)
 lang_dir="$(dirname $0)/lang"
 
