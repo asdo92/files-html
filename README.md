@@ -1,4 +1,4 @@
-files-html - Cool indexer html for Apache/Nginx with Bootstrap
+files-html - Cool HTML Indexer for Apache/Nginx with Bootstrap
 ==============================================================
 
 ### Installation:
