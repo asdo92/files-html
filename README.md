@@ -24,7 +24,7 @@ files-html - Cool indexer html for Apache/Nginx with Bootstrap
 
     * Open `index.html` file and see your bootstrap index:
 
-    <img src="null" />
+    _
     <img src="https://git.q3aql.dev/q3aql/files-html/raw/branch/master/img/files-html.png" />
 
 ### External links:
