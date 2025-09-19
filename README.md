@@ -7,7 +7,7 @@ files-html - Cool HTML Indexer for Apache/Nginx with Bootstrap
   
     * Clone git repository:
     
-          git clone https://git.q3aql.dev/q3aql/files-html
+          git clone https://github.com/asdo92/files-html
 
   * **Set language and generate index:**
   
@@ -25,7 +25,7 @@ files-html - Cool HTML Indexer for Apache/Nginx with Bootstrap
     * Open `index.html` file and see your bootstrap index:
 
     _
-    <img src="https://git.q3aql.dev/q3aql/files-html/raw/branch/master/img/files-html.png" />
+    <img src="/img/files-html.png" />
 
 ### External links:
 
